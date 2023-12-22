@@ -16,7 +16,6 @@ public class UserInterface {
 
         while(true){
             turnHeader(turn);
-            displayGamePanel();
             
             turn++;
             break;
@@ -32,11 +31,4 @@ public class UserInterface {
         System.out.println("------Turn " + turn + " ------");
     }
 
-    public static void displayGamePanel(){
-        System.out.println("     * | * | *");
-        System.out.println("     ---------");
-        System.out.println("     * | * | *");
-        System.out.println("     ---------");
-        System.out.println("     * | * | *");
-    }
 }
