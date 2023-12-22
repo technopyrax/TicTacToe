@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Board {
 
     private ArrayList<Space> board;
@@ -6,4 +8,7 @@ public class Board {
         board = new ArrayList<>();
     }
 
+    public void newGame(){
+    
+    }
 }

@@ -6,7 +6,6 @@ public class UserInterface {
 
     public UserInterface(){
         input = new Scanner(System.in);
-    
     }
 
     public void start(){
