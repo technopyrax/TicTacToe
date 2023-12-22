@@ -2,7 +2,7 @@ public class Space{
 
     private char state;
 
-    public void getPos(){
+    public char getPos(){
         return this.state;
     }
 
