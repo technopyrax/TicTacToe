@@ -51,7 +51,7 @@ public class UserInterface {
     }
     //turn start header
     public static void turnHeader(int turn){
-        System.out.println("------Turn " + turn + " ------");
+        System.out.println("-------Turn " + turn + " -------");
     }
     //displays current players turn and has them make space selection
     public void playerTurn(int turn, Board board){
